@@ -1,10 +1,12 @@
+import os
+
 import pymongo
 
 __author__ = 'jslvtr'
 
 
 class Database(object):
-    URI = "mongodb+srv://godmode007:@aeonic-8n5oo.azure.mongodb.net/admin"
+    URI = os.environ.get('MONGODB_URI')
     DATABASE = None
 
     @staticmethod
