@@ -4,7 +4,7 @@ __author__ = 'jslvtr'
 
 
 class Database(object):
-    URI = "mongodb://127.0.0.1:27017"
+    URI = "mongodb+srv://godmode007:@aeonic-8n5oo.azure.mongodb.net/admin"
     DATABASE = None
 
     @staticmethod
